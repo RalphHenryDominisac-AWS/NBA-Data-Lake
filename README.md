@@ -36,30 +36,30 @@ The system implements a serverless data lake architecture using AWS services, de
 
 1. Data Storage (S3 Buckets)
 
- - Serves as the primary storage for raw data
- - Stores JSON documents in a structured format
- - Acts as the source for all downstream processing
-
+   - Serves as the primary storage for raw data
+   - Stores JSON documents in a structured format
+   - Acts as the source for all downstream processing
+ 
 
 2. Data Processing (Crawler)
 
- - Utilizes Apache Spark ETL jobs for data transformation
- - Automatically discovers and catalogs data schema
- - Processes data for downstream analytics
+   - Utilizes Apache Spark ETL jobs for data transformation
+   - Automatically discovers and catalogs data schema
+   - Processes data for downstream analytics
 
 
 3. Metadata Management (AWS Glue Data Catalog)
 
- - Maintains metadata information about all datasets
- - Stores DDL (Data Definition Language) Hive metadata
- - Serves as a central metadata repository
+   - Maintains metadata information about all datasets
+   - Stores DDL (Data Definition Language) Hive metadata
+   - Serves as a central metadata repository
 
 
 4. Query Engine (Amazon Athena)
 
- - Provides serverless SQL query capabilities
- - Uses Presto distributed engine for processing
- - Enables direct querying of data stored in S3
+   - Provides serverless SQL query capabilities
+   - Uses Presto distributed engine for processing
+   - Enables direct querying of data stored in S3
 
 ## Setup Instructions
 
